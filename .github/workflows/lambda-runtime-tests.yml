@@ -31,7 +31,8 @@ jobs:
 
       - name: Check for changes
         id: git-check
-        # run: |
+        run: |
+          echo 1
           # if [[ -n "$(git status --porcelain)" ]]; then
           #   echo "changes=true" >> $GITHUB_OUTPUT
           # else
