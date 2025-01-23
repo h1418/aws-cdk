@@ -2,6 +2,8 @@ import { Construct } from 'constructs';
 import { BundlingDockerImage, DockerImage, Stack } from '../../core';
 import { FactName } from '../../region-info';
 
+/** **/
+
 export interface LambdaRuntimeProps {
   /**
    * Whether the ``ZipFile`` (aka inline code) property can be used with this runtime.
