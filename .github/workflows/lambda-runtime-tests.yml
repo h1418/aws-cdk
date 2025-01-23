@@ -6,7 +6,6 @@ on:
 
 jobs:
   update-lambda-tests:
-    if: github.repository == 'aws/aws-cdk'
     runs-on: ubuntu-latest
     permissions:
       contents: write
