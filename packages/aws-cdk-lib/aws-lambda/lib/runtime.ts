@@ -7,6 +7,7 @@ export interface LambdaRuntimeProps {
    * Whether the ``ZipFile`` (aka inline code) property can be used with this runtime.
    * @default false
    */
+  //
   readonly supportsInlineCode?: boolean;
 
   /**
